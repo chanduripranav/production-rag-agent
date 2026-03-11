@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+pymupdf
+python-docx
+rank-bm25
+sentence-transformers
+transformers
+torch
+faiss-cpu
+numpy
+pandas
+scikit-learn
+pytest
+httpx
+python-multipart

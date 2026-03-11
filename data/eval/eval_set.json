@@ -1,0 +1,37 @@
+[
+  {
+    "question": "What are the two dimensional Geometric Primitives?",
+    "expected_chunk_ids": [
+      "CV IMP QUESTIONS.docx.pdf-p1-c0000"
+    ]
+  },
+  {
+    "question": "What is the Aperture Problem?",
+    "expected_chunk_ids": [
+      "CV IMP QUESTIONS.docx.pdf-p1-c0000",
+      "CV IMP QUESTIONS.docx.pdf-p1-c0001"
+    ]
+  },
+  {
+    "question": "How do you calculate True Positive Rate and Accuracy?",
+    "expected_chunk_ids": [
+      "CV IMP QUESTIONS.docx.pdf-p1-c0001"
+    ]
+  },
+  {
+    "question": "What does fundamental matrix do?",
+    "expected_chunk_ids": [
+      "CV UNIT 4 & 5 QB.pdf-p4-c0000",
+      "CV UNIT 4 & 5 QB_231108_203607.pdf-p4-c0000",
+      "CV UNIT 4 & 5 QB.pdf-p6-c0000",
+      "CV UNIT 4 & 5 QB_231108_203607.pdf-p6-c0000"
+    ]
+  },
+  {
+    "question": "What is 3D parallax?",
+    "expected_chunk_ids": [
+      "CV UNIT 4 & 5 QB.pdf-p8-c0000",
+      "CV UNIT 4 & 5 QB_231108_203607.pdf-p8-c0000"
+    ]
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "chunk_id": "CV IMP QUESTIONS.docx.pdf-p1-c0000",
+    "source_file": "CV IMP QUESTIONS.docx.pdf",
+    "page_number": 1,
+    "text": "IMPORTANT QUESTIONS UNITWISE\nUNIT 1\n1. Write short notes on the following two dimensional Geometric Primitives: a. 2D Points (2) and b. 2D\nLines (2)\n2. Explain the basic set of two dimensional planar transformations with a neat figure.(6)\n3. Explain the general image processing operator in detail. (6)\n4.Explain briefly about Geometric primitives and transformations with neat diagram.(10)\n5. Define the following: a. Composting (2) and b. Matting (2)\n6. What is Bidirectional Reflectance Distribution Function (BRDF)? (4)\n7. With neat figure, discuss the components into which a typical BRDF is split into(6).\n8. What Is Fourier Transform? Discuss about the closed form equations of Fourier Transform in\ncontinuous and discrete domains. (6)\n9. Differentiate between Discrete- and Fast- Fourier Transforms. (4)\n10. Illustrate the following Linear Filtering techniques,(10)\nSeparable filtering\nBand-pass and steerable filters\nUnit 2\n1. With a neat diagram, illustrate the Aperture Problem for different image patches. (10)\n2.Describe the discrete cosine transform in Fourier transform.(4)\n3. Give the equation for the following and briefly summarize each in few words:\na. True Positive Rate (TPR) and"
+  },
+  {
+    "chunk_id": "CV IMP QUESTIONS.docx.pdf-p1-c0001",
+    "source_file": "CV IMP QUESTIONS.docx.pdf",
+    "page_number": 1,
+    "text": "nt image patches. (10)\n2.Describe the discrete cosine transform in Fourier transform.(4)\n3. Give the equation for the following and briefly summarize each in few words:\na. True Positive Rate (TPR) and False Positive Rate (FPR) (4) and b. Positive Predictive Value (PPV) and\nAccuracy (ACC) (6)\n4. Explain the various techniques in Edge Detection with necessary examples. (10)\n5. What is Hough Transform? With a neat figure, explain how a 2D line equation is expressed In terms of\nthe normal and distance to the origin. (10)\n6.Explain briefly about Orthography and para-perspective in 2D and 3D geometric primitives.(10)\nUnit 3\n11. Explain Snakes in detail. What is the main drawback in using Snakes? (6)\n12. What is the basic solution to overcome the drawback while using Snakes? (4)\n13. Explain Normalized Cuts in detail with an example. (10)\n14. Explain the following systems with necessary examples: a. Scissors (5) b. Level Sets (5)\n15. Categorize the various techniques developed for solving Pose Estimation problem. (10)\n16.Explain in detail about feature detection techniques with relevant examples and diagrams.(10)\n17. Illustrate the expectation maximization algorithm in K-means and mixture"
+  },
+  {
+    "chunk_id": "CV IMP QUESTIONS.docx.pdf-p1-c0002",
+    "source_file": "CV IMP QUESTIONS.docx.pdf",
+    "page_number": 1,
+    "text": "Estimation problem. (10)\n16.Explain in detail about feature detection techniques with relevant examples and diagrams.(10)\n17. Illustrate the expectation maximization algorithm in K-means and mixture of Gaussians..(10)\n18. Illustrate Graph cuts and energy-based methods with neat diagram. (10)\nUnit 4\n16. What is the need for Projective Reconstruction? (5)\n17. Briefly discuss why does the Essential Matrix (E) change into the Fundamental Matrix (F)? (5)\n18. Explain Hierarchical Motion Estimation in detail. (10)\n19. Examine the various Bundle Adjustment techniques involved in accurately recovering structure and\nmotion. (10)"
+  },
+  {
+    "chunk_id": "CV IMP QUESTIONS.docx.pdf-p2-c0000",
+    "source_file": "CV IMP QUESTIONS.docx.pdf",
+    "page_number": 2,
+    "text": "20. Explain Fourier-based Alignment in detail with necessary examples. (10)\nUnit 5\n21. What are two-dimensional motion models? Explain how they can be used for image stitching. (10)\n22. Explain the basic steps involved in choosing a composting surface. (10)\n23. With neat figures, explain the Projection from: a. 3D to Cylindrical coordinate (5) and b. 3D to\nSpherical coordinates (5)\n24. Explain the process of Recognizing Panoramas. (5)\n25. What are the various difficulties faced while Recognizing Panoramas? (5)\n**for 4TH UNIT AND 5TH UNIT STUDY CLA-3 QUESTION PAPER BOTH THE SETS"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p1-c0000",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 1,
+    "text": "UNIT-I\nIntroduction To Computer Vision\nImage Formation -Geometric Primitives - 2D,3D\nTransformations - 3D To 2D Projection - Lighting, Reflectance and Shading - Sampling And\nAliasing -\nImage Processing-\nPoint Operators- Pixel Transforms -\nColor Transform\nHistogram Equalization -   Linear Filtering, non Linear filtering-  Fourier transforms\nTwo-dimensional Fourier transforms -Wiener filtering\nMultiple Choice Questions\n1. Digitization of spatial co-ordinates (x,y)is called\n(a)gray level quantization\n(b)finite sampling\n(c)image sampling\n(d)image quantization\n2. Image transforms are needed for\n(a)conversion information form spatial to frequency\n(b)spatial domain\n(c)time domain\n(d)both b&c\n3. An alternate approach to median filtering is ______________\na) Use a mask b) Gaussian filter c) Sharpening d) Laplacian filter\n4. The amount of white light present in a spectrum is called as ____________\na.intensity b.saturation c.hue   d.colour\n5. well transform is used for ____________\na. highlighting the bright peaks b. highlighting the dark peaks\nc. highlighting the bright and dark peaks  d. highlighting the dark and bright peaks\n6.  A translation is applied to an object by\na) Repositioning it"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p1-c0001",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 1,
+    "text": "g the bright peaks b. highlighting the dark peaks\nc. highlighting the bright and dark peaks  d. highlighting the dark and bright peaks\n6.  A translation is applied to an object by\na) Repositioning it along with straight line path\nb) Repositioning it along with circular path\nc) Only b\nd) All of the mentioned\n7. The translation distances (dx, dy) is called as\na) Translation vector\nb) Shift vector"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p2-c0000",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 2,
+    "text": "c) Both a and b\nd) Neither a nor b\n8. A straight line segment is translated by applying the transformation equation\na) P’=P+T\nb) Dx and Dy\nc) P’=P+P\nd) Only c\n9. A Grid of square which contains a single color is called\na. Image b. Pixel value c. Pixel d. Color\nAns:c\n10. A Fourier transform of a product is equal to\na. Correlation of Fourier transform  b. Convolution of Fourier transform\nc. Both of the above     d. None of the above\nAns:a\n11. Intensity can be converted to colour transformation by Assigning colors to\na.Pixels    b.Coordinates    c.Pixel depth    d.Intensity Levels\nAns.d\n12. Which of the following filter(s) has the response in which the central pixel value is\nreplaced by value defined by ranking the pixel in the image encompassed by filter?\na.Order-Statistic filters\nb. Non-linear spatial filters\nc.Median filter\nd.All of the above\nAns:d\n13. Which of the following is/are used as basic function in nonlinear filter for noise\nreduction?\na) Computation of variance    b) Computation of median\nc) All of the above                  d) None of the above\nAns: b\n14.  In Weiner filtering it is assumed that noise and image are\na. Different             b.Homogeneous   c.Correlated"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p2-c0001",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 2,
+    "text": "ion of median\nc) All of the above                  d) None of the above\nAns: b\n14.  In Weiner filtering it is assumed that noise and image are\na. Different             b.Homogeneous   c.Correlated    d. Uncorrelated\nAns:d\n15.  Find the Fourier transform of F(x) = 1, |x|<a0, otherwise.\na) 2sin(ap)p  b) 2asin(ap)p   c) 4sin(ap)p      d) 4asin(ap)p\nAns: a"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p3-c0000",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 3,
+    "text": "16.Which of the following processes would help avoid aliasing while downsampling an\nimage?\n(a) Image sharpening          (b) Image blurring.\n(c) Median filtering where you replace every pixel by the median of pixels in a window\naround the pixel.\n(d) Histogram equalization.\nAns: b\n17. Down sampling can lead to aliasing because\n(a) Sampling leads to additions of low frequency noise.\n(b) Sampled high frequency components result in apparent low frequency components.\n(c) Sampling increases the frequency components in an image.\n(d) Sampling leads to spurious high frequency noise\nAns: b\n18. Which of the following is true for Eigenfaces (PCA)?\n(a) Can be used to effectively detect deformable objects.\n(b) Invariant to affine transforms.\n(c) Can be used for lossy image compression\n(d) Is invariant to shadows.\nAns:  c\n19.  Select one of the most appropriate applications of Computer vision\na) Medical computer imaging\nb) remote sensing\nc) geographical map\nd) medical diagnosis\nAns:a\n20. If the pixels of an image are shuffled then the parameter that may change is\na) Histogram b) Mean c) Entropy d) Covariance\nAns:d\n21. Computer vision defined as a discipline in which -----------\na) Both the input"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p3-c0001",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 3,
+    "text": "s of an image are shuffled then the parameter that may change is\na) Histogram b) Mean c) Entropy d) Covariance\nAns:d\n21. Computer vision defined as a discipline in which -----------\na) Both the input and output of a process are images.\nb) The input of a process is an image description and the output is image\nc) Both the input and output of a process are descriptions.\nd) The input of a process is an image and the output is an image description.\nAns:d\n22. -----------Filter cannot be implemented using a convolution mechanism."
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p4-c0000",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 4,
+    "text": "a) Average b) Gaussian c) Median d) Disk\nAns:c\n23. Which of the following techniques is based on the Fourier transform?\na) Structural b) Spectral c) Statistical d) Topological\nAnswer: b\n24. The color model which is more relevant to a display system is the\na) RGB Model b) CMY Model c) HIS Model d) YIQ Model\nAns: a\n25.The forward models that we use in computer vision are usually developed in\n_______________and ________________\na) Physics and chemistry\nb) Physics and computer graphics\nc) Only a\nd) None of the above\nAnswer: b\n26.Choose the applications of computer vision from the below.\na) Machine inspection and 3D modeling\nb) Retail and Optical character recognition\nc) All of the above\nd) Only b\nAnswer: c\n27.Face detection involves __________ and _______________\na)Improved camera focusing and more relevant image searching\nb) Reduced camera focusing and inefficient image searching\nc)only b\nd)None of the above\nAnswer: a\n28.2D points can also be represented using homogeneous coordinates, in which (x,y,1) is\n_____________\na)Identical vector\nb)Isolated vector\nc)Augmented vector\nd)None of the above\n29. How does the diffuse reflection scatter light?\na)Uniformly in all directions\nb)Bidirectio"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p4-c0001",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 4,
+    "text": "which (x,y,1) is\n_____________\na)Identical vector\nb)Isolated vector\nc)Augmented vector\nd)None of the above\n29. How does the diffuse reflection scatter light?\na)Uniformly in all directions\nb)Bidirectional reflectance\nc)None of the above\nd)only b\nAnswer: a"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p5-c0000",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 5,
+    "text": "30..What happens when a field of light impinging on the image sensor falls onto the active\nsense areas in the imaging chip?\na)The photons arriving at each active cell are integrated and then digitized\nb)The neutrons arriving at each active cell are integrated\nc)only b\nd)None of the above\nAnswer: a\nSHORT ANSWERS\n1.Explain adaptive histogram equalization technique.\n2.Define Photometric image formation. Discuss about Light scatters\nwhen it hits a surface.\n3.Define BRDF.What is Helmholtz reciprocity?\n4.Differentiate between Discrete Fourier Transform and Fast Fourier Transform\n5.Explain in detail about discrete cosine transform in Fourier transform\n6.Explain briefly about impulse response function with equation\n7.Explain in  detail about Orthography and para-perspective\n8.Define similarity transform with matrix form\n9.Discuss the Hierarchy of 2D coordinate transformations\n●\nlisting the transformation name,\n●\nits matrix form,\n●\nthe number of degrees of freedom,\n●\nwhat geometric properties it preserves,\n●\na mnemonic icon\n10.Explain the Bilinear interpolation.\nANSWER THE FOLLOWING\n1. Explain briefly about Geometric primitives and transformations\nwith a neat diagram.\n2. Discuss about the f"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p5-c0001",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 5,
+    "text": "t preserves,\n●\na mnemonic icon\n10.Explain the Bilinear interpolation.\nANSWER THE FOLLOWING\n1. Explain briefly about Geometric primitives and transformations\nwith a neat diagram.\n2. Discuss about the following point operators in image processing\ntransforms.\n❖ Pixel transforms\n❖ Color transforms\n❖ Compositing and matting\n3. Illustrate briefly about Orthography and Para-perspective in\n2D and 3D geometric primitives.\n4. Explain the following Linear Filtering techniques,\n●\nSeparable filtering\n●\nBand-pass and steerable filters"
+  },
+  {
+    "chunk_id": "CV Unit 1 QB.pdf-p6-c0000",
+    "source_file": "CV Unit 1 QB.pdf",
+    "page_number": 6,
+    "text": "5. Discuss about affine transformation with neat diagram"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p1-c0000",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 1,
+    "text": "III CSE(AIML) \nCOMPUTER VISION \nUNIT 2 & 3 QUESTION BANK \nUNIT-2 \n1. What is the process of breaking an image into groups? \na. Edge detection \nb) Smoothing c) Segmentation d) None of the above \n Answer: c \n \n2. For edge detection we observe \na.intensity transition \nb.shape transition \nc.color transition \nd.signtransition \nAnswer: (d). \n3. For diagonal edge detection we use \na.1D mask b.2D mask c.3D mask d.4D mask   \n \n \n \n \nAns:b \n \n4. Intersection between zero intensity and extreme of second derivative is called \na.Discontinuity   b.Similarity   c.Continuity   d.zero crossing  \n \n \n \nAns: d \n \n5. Edge detection has fundamental a \na.2 points b.3 points c.4 points d.5 points \n \n \n \n \n \nAnswer: (b) \n \n6. Regions of the image must be \na.Joint    b.Disjoint     c.Connected     d.Overlapped  \n \n \n \n \nAns: b \n \n7. The direction of angle to the gradient is \na.Orthogonal b.Isolated c.Isomorphic d.Isotropic \n \n \n \n \nAns:a \n \n8. Second derivative approximation says that value at end of ramp must be \na.Nonzero b.Zero c.Positive d.Negative  \n \n \n \n \n \n Ans: a \n \n9. In Canny edge detection, we will get more discontinuous edges if we make the following change to \nthe hysteresis thresholding: \n(a"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p1-c0001",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 1,
+    "text": "be \na.Nonzero b.Zero c.Positive d.Negative  \n \n \n \n \n \n Ans: a \n \n9. In Canny edge detection, we will get more discontinuous edges if we make the following change to \nthe hysteresis thresholding: \n(a) increase the high threshold        \n \n(b) decrease the high threshold \n(c) increase the low threshold \n(d) decrease the low threshold  \n Ans: c \n \n10. Suppose we are using a Hough transform to do line fitting, but we notice that our system is \ndetecting two lines where there is actually one in some example image. Which of the following most \nlikely to alleviate this problem? \n(a) \nIncrease the size of the bins in the Hough transform. \n(b) \nDecrease the size of the bins in the Hough transform. \n(c) \nSharpen the image. \n(d) \nMake the image larger  \n \n \n \n \n \n \nAns: a \n \n11. Edge detection in images is commonly accomplished by performing a spatial ---------------- of the \nimage field. \na) \nSmoothing Filter b) Integration c) Differentiation d) Min Filter \n \n \nAns: c \n \n12. What is a perspective anomaly? \na) \nOblique b) vanishing point c) cavalier d) none of these \n \n \n \nAns:b \n \n13.. N sift descriptors are indexed using a randomized KD-tree then, What is the complexity (in terms of \nN) o"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p1-c0002",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 1,
+    "text": "ive anomaly? \na) \nOblique b) vanishing point c) cavalier d) none of these \n \n \n \nAns:b \n \n13.. N sift descriptors are indexed using a randomized KD-tree then, What is the complexity (in terms of \nN) of finding an approximate nearest neighbour to a query sift descriptor? \na. N2 b. N c. log N \nd. log log N \n \n \n \n \n \nAns:c \n \n14 Example of Edge Detection Methods is \na) Neural Networks Segmentation b) Graph Partitioning Methods \nc) Watershed Transformation d) Multi-scale Segmentation \n \n \n \nAns: c \n \n15. Edge based segmentation algorithm is using"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p2-c0000",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 2,
+    "text": "a) Discontinuity and similarity b) Threshold value c) Edge linking and boundary \nd) None of the above  \n \n \n \n \n \n \n \n \nans:c \n \n16. Segmentation is usually not perfect due to number of factors such as \na) Noise, Bad illumination b) Object Contain several region  \nc) Due to boundary-filling d) Due to closed contour \n \n \n \n \nAns:a \n \n17. A gradient operator for edge detection is \na) Roberts b) Second order derivative c) Zero crossing operator d) None  \n \nAns:a \n \n18. In histogram-based segmentation, we measure the \na) Color or intensity of objects b) Region of objects c) All of the above d) None of the above \nAns:a \n \n19. A Classical edge detector uses \na) Prewitt operator b) Robert operator c) Threshold operator d) Gaussian operator \n \nAns: a \n \n20. Identify the approach used to find feature points and their correspondences \n a. \nfinding features in one image that can be accurately tracked using a local search technique, \nsuch as correlation or least squares. \nb. \nindependently detect features in all the images under consideration and then match features \nbased on their local appearance \nc. \nBoth of the above \nd. \nNone of the above  \n \n \n \n \n \n \n \nAnswer: c \n \n21. What are good fea"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p2-c0001",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 2,
+    "text": "features in all the images under consideration and then match features \nbased on their local appearance \nc. \nBoth of the above \nd. \nNone of the above  \n \n \n \n \n \n \n \nAnswer: c \n \n21. What are good features to track? \na. \nPatches with large contrast changes (gradients) are easier to localize, although straight line \nsegments at a single orientation suffer from the aperture problem. \nb. \nPatches with gradients in at least two (significantly) different orientations are the easiest to \nlocalize. \nc. \nBoth of the above \nd. \nNone of the above  \n \n \n \n \n \n \nAnswer: c \n \n22. The feature descriptors describe elementary characteristics such as \na. \nthe shape \nb. \nthe color \nc. \nthe texture or the motion \nd. \nall of the above  \n \n \n \n \n \n \nAnswer: d \n \n23. In feature matching, which of the following is true? \na. \nSelect matching strategy, which determines which correspondences are passed on to the next \nstage for further processing. \nb. \nDevise efficient data structures and algorithms to perform this matching as quickly as possible \nc. \nBoth a and b \nd. \nNone of the above  \n \n \n \n \n \n \nAnswer: c \n \n24. To rapidly search for features near a given feature, which of the following can be devised?"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p2-c0002",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 2,
+    "text": "this matching as quickly as possible \nc. \nBoth a and b \nd. \nNone of the above  \n \n \n \n \n \n \nAnswer: c \n \n24. To rapidly search for features near a given feature, which of the following can be devised? \na. \nmulti-dimensional search tree \nb. \na hash table \nc. \nEither (a) or (b) \nd. \nNone of the above  \n \n \n \n \n \n \nAnswer: c \n \n25. In video tracking applications, the expected amount of motion and appearance deformation between \nadjacent frames is expected to be \na. \nSmall \nb. \nLarge \nc. \nAverage \nd. \nNone of the above  \n \n \n \n \n \n \nAnswer: a"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p3-c0000",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 3,
+    "text": "26. Examples of edge detectors are \na. \nSobel Edge detector and Threshold edge detector \nb. \nScale-space edge detector and Sobel Edge detector \n  \nc. \nSobel Edge detector, Scale-space edge detector, Threshold edge detector \nd. \nNone of the above  \n \n \n \n \n \n \nAnswer: c \n \n27. Which of the following is true? \na. \nThe finer (smaller kernel) Gaussian is a noise-reduced version of the original image \nb. \nThe coarser (larger kernel) Gaussian is an estimate of the average intensity over a larger region. \nc. \nBoth (a) and (b) are true \nd. \nOption (a) is true but (b) ifalse   \n \n \n \n \nAnswer: c \n \n28. To accelerate the neighbor finding in edge linking, what can be done? \na. \nUse a sorted list of edgels (sorted first by x coordinates and then by y coordinates, for example) \nb. \nUse a 2D array \nc. \nUse a long unsorted list \nd. \nOption (a) and (b) \n \n \n \n \n \n \n Answer: d \n \nPART B \n \n1. \nAssess the principles of MOPS and SIFT feature descriptor algorithms. \n2. \nExplain the stages involved in keypoint detection and feature matching \n3. \nElucidate the chain code and arc length parameterization approaches of edge linking. \n4. \nExplain the significance of successive approximation algorithm. \n5."
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p3-c0001",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 3,
+    "text": "oint detection and feature matching \n3. \nElucidate the chain code and arc length parameterization approaches of edge linking. \n4. \nExplain the significance of successive approximation algorithm. \n5. \nIdentify the stages of image processing and explain in brief. \n6. \nExplain briefly about vanishing points detection approach \n7. \nExplain how confusion matrix is used to quantify the performance of feature matching. \n8. \nDiscuss the role of Hough transform in noisy image edge detection.objects. \n9.  \nWhat is feature detection? Explain the following feature detectors: i)Forstner-Harris Hessian \ni. Adaptive non-maximal suppression \nii. Affine invariant detectors \n10. What are feature descriptors? Explain the following feature descriptors: \ni) \nBias and Gain normalization    ii) \nSIFT   \niii)GLOH \n \n \n \nUNIT-3(MCQ) \n \n1. Which is a computer-generated curve that moves within images to find object boundaries? \na.Active contours \nb. scissors \nc. shifts \nd.set \n \n2. The overall internal energy of a curve is calculated using first and second derivative of the snake \nmethod, \na. \nThe energy can be used to evolve the curve \nb. \nThe energy can’t be used to evolve the curve \nc. \nThe energy can be"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p3-c0002",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 3,
+    "text": "a curve is calculated using first and second derivative of the snake \nmethod, \na. \nThe energy can be used to evolve the curve \nb. \nThe energy can’t be used to evolve the curve \nc. \nThe energy can be used to evolve the sphere \nd. \nThe energy can’t be used the evolve the semi-sphere \n \n3. Condensation is the principal application of computer vision \na. \nto detect and track the contour of objects moving in a cluttered environment \nb. \nonly to detect the contour of objects moving in a cluttered environment \nc. \nto detect and track the contour of objects moving in a systemized environment \nd. \nonly to detect the contour of objects moving in a systemized environment \n \n4. \nwhich is the image segmentation method? \na. \nnormalized cut \nb. \nHistogram of oriented Gradients. \nc. \nViola-Jones algorithm"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p4-c0000",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 4,
+    "text": "d. \nImage editing. \n \n \n5. \n \n  \nallow objects within digital images to be extracted quickly and \naccurately using simple gesture motions with a mouse. \na. \nscissors \nb. snake \nc.counters \nd.sets \n \n6. The 2D Alignment using least squares is \na. x’=f(x;p) \nb. x’=f(x) \nc.x’=f(p) \nd.x’=f(y) \n \n7. Speeding up of finding a likely good set of inliers is called \na. \nPROSAC \nb.RANSAC \nc.RANSOM \nd. SOMRAM \n \n8. Many computer applications require the alignment of   \n \na. \n3D points \nb. 2D points \nc. 1 point \nd.2 points \n \n9. The algorithm that helps in computing the single value decomposition of the 3X3 correlation matrix \nis \na. Orthogonal Procrustes algorithm \n \nb. absolute orientation algorithm      \nc. approximate algorithm  \n \n \nd.angular algorithm \n \n10. As the user draws a rough outline the system computes and draws a better curve that clings to high-\ncontrast edges are \n. \na) Active Contour  \nb)intelligent scissors \n \nc)Snakes \nd)level sets \n \n12. \nInvolve active shape and appearance models, active contours and deformable templates is called \na) \nModel based Segmentation \nb) Semi-automatic Segmentation \nc) All of the above \nd) None of the above  \n \nAns: a \n \n13 Techniques like Livew"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p4-c0001",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 4,
+    "text": "dels, active contours and deformable templates is called \na) \nModel based Segmentation \nb) Semi-automatic Segmentation \nc) All of the above \nd) None of the above  \n \nAns: a \n \n13 Techniques like Livewire or Intelligent Scissors are used in \na) \nModel based Segmentation \nb) Semi-automatic Segmentation \nc) Threshold based Segmentation \nd) None of the above.  \nAns:b \n \n14. Normalized cuts is an NP-hard problem. To get around this problem, we do the following: \n(a) apply k-means as an initialization \n(b) allow continuous eigenvector solutions and discretize them \n(c) converting from a generalized eigenvalue problem to a standard one \n(d) constraining the number of cuts we make \nAns : b and  c \n \n15. An interesting application that is closer to computer animation and visual effects \nis \n  \nwhich uses the tracked contours to deform a set of hand drawn animations \nRotoscoping \n \n16. \n  \n are a two dimensional generalization of the 1D energy minimizing splines \na) \nSnakes   \nb )  scissors   \nc ) grapcut  \n \nd)levelset \n \n17. which one of the following allows the association between constraints and curves points to evolve \nover time? \nSlippery spring \n \n18. \none of the simplest applications"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p4-c0002",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 4,
+    "text": ") grapcut  \n \nd)levelset \n \n17. which one of the following allows the association between constraints and curves points to evolve \nover time? \nSlippery spring \n \n18. \none of the simplest applications of image alignment is a special form image stitching called  \n \n \na) panography b) morphology c) cardiology d) none of the above \n \n19.  The pose estimation problem is also known as \na. Extrinsic Calibration b. Intrinsic calibration  c. Direct linear transform d. Both A and B"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p5-c0000",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 5,
+    "text": "20. How can we produce the best estimate of the motion parameters P? \na) Use Least Squares \nb) Sum squares \nc) Both a and b only \nd) None of the above \n21. \nThe energy corresponding to a segmentation problem can be written as    \n \n \n \n22. The Harris detector extracts interest points for a given image. Select the properties which are \ncorrect? \na) \nThe detector is based on the auto-correlation matrix. \nb) The detector selects the characteristic scale. \nc) The detector finds discriminant points. \nd) The detector is invariant to rotation. \n \n23. In feature matching, which of the following is true? \na) \nSelect matching strategy, which determines which correspondences are passed on to the next \nstage for further processing. \nb) \nDevise efficient data structures and algorithms to perform this matching as quickly as possible \nc) \nBoth a and b \nd) None of the above. \n \n25. \nIdentify the approach used to find feature points and their correspondences \na) \nfinding features in one image that can be accurately tracked using a local search technique, such \nas correlation or least squares. \nb) \nindependently detect features in all the images under consideration and then match features \nbased on"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p5-c0001",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 5,
+    "text": "be accurately tracked using a local search technique, such \nas correlation or least squares. \nb) \nindependently detect features in all the images under consideration and then match features \nbased on their local appearance \nc) \nBoth of the above \nd) \nNone of the above \n \n26. What are good features to track? \na) \nPatches with large contrast changes (gradients) are easier to localize, although straight line \nsegments at a single orientation suffer from the aperture problem. \nb) \nPatches with gradients in at least two (significantly) different orientations are the easiest to \nlocalize. \nc) \nBoth of the above \nd) \nNone of the above \n \n27. To rapidly search for features near a given feature, which of the following can be devised? \na) \nmulti-dimensional search tree \nb) \na hash table \nc) \nEither (a) or (b) \nd) \nNone of the above \n \n28. To accelerate the neighbor finding in edge linking, what can be done? \na) \nUse a sorted list of edgels(sorted first by x coordinates and then by y coordinates, for example) \nb) \nUse a 2D array \nc) \nUse a long unsorted list \nd) \nOption (a) and (b) \n \n29. In video tracking applications, the expected amount of motion and appearance deformation between \nadjacen"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p5-c0002",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 5,
+    "text": "for example) \nb) \nUse a 2D array \nc) \nUse a long unsorted list \nd) \nOption (a) and (b) \n \n29. In video tracking applications, the expected amount of motion and appearance deformation between \nadjacent frames is expected to be \na) \nSmall \nb) \nLarge \nc) \nAverage \nd) \nNone of the above \n \n30. Which of the following is true?"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p6-c0000",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 6,
+    "text": "a) \nThe finer (smaller kernel) Gaussian is a noise-reduced version of the original image \nb) \nThe coarser (larger kernel) Gaussian is an estimate of the average intensity over a larger \nregion. \nc) \nBoth (a) and (b) are true \nd) \nOption (a) is true but (b) Is false \n \n31. Multi-dimensional hashing maps descriptors into \nbased on some function \napplied to each descriptor vector \na) \nfixed size buckets b) stacks c) queue d) large buckets \n \n32. Isolated edge points can also be grouped into  \n \na) longer curves or contours, as well as straight line segments \nb) edges \nc) \nCorners \nd) straight lines only \n \n33. Successive approximation is also known as   \n \na) \nLine simplification b) circle approximation c) parabolic model d) b and c \n \n34. A global descriptor describes  \n \na) a complete object or point cloud b) Regions only c) edges and corners d) none of the above \n \n35. Many computer applications require the alignment of   \n \na) \n3D points \nb) 2D points \nc) 1 point \nd)2 points \n \n36. Which is a computer-generated curve that move within images to find object boundaries.? \na) \nActive contours \nb)scissors \nc) shifts \nd)set \n \n37.. Slippery spring allows the association between \nand"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p6-c0001",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 6,
+    "text": "ich is a computer-generated curve that move within images to find object boundaries.? \na) \nActive contours \nb)scissors \nc) shifts \nd)set \n \n37.. Slippery spring allows the association between \nand    \n \na) \nConstraints and curve \nb) gradient and orientation \nc) \nSplines and lines \nd) \nnone of the above \n \n38. Active contours allow a user to roughly specify a   \n \na) \nboundary of interest \nb) \nedge points \nc) \npixel intensity \nd) \ndimension \n \n39. Alpert, Galun, Basri et al. (2007) develop a probabilistic merging algorithm based on two cues, \nnamely   \n \na) \nColor images and gray level \nb) \ngray-level similarity and texture similarity \nc) \ntexture similarity and key points \nd) \nnone of the above \n \n40. \nMean-shift techniques try to find clusters of _ \nusing mode finding \na) \nsimilar pixels \nb) \nneighbouring pixels \nc) \nimmediate pixels \n \n41. Snakes can be very good at capturing the \nshape in many real-world \ncontours. \nfine and irregular \n \n42. To compute a good solution to the TSP, the slippery spring data association energy is \ncombined with a regular \nto define the cost of a tour. \nfirst-order internal smoothness energy"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p6-c0002",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 6,
+    "text": "e slippery spring data association energy is \ncombined with a regular \nto define the cost of a tour. \nfirst-order internal smoothness energy"
+  },
+  {
+    "chunk_id": "CV unit 2 and 3 QB.pdf-p7-c0000",
+    "source_file": "CV unit 2 and 3 QB.pdf",
+    "page_number": 7,
+    "text": "43. A more common way to estimate a set of \non the typical distribution of the \ncontrol points {xk}. \nShape priors \n \n44. Active contours allow a user to roughly specify a   \n \nboundary of interest \n \nPART – B \n1. \nAssess the significance of mean shift and mode finding. \n2. \nExplore the implications of level sets in image processing \n3. \nExamine the merits and demerits of different split and merge algorithms and explain them in \nbrief. \n4. \nAnalyze the significance of dynamic contour in medical image processing. \n5. \nExplain the techniques used to minimize the energy in contour detection. \n6. \nIllustrate the expectation maximization algorithm in K-means and mixture of Gaussians. \n7. \nElaborate the process of computing the internal energy of snakes for image segmentation. \n8.          Explain the normalized cut algorithm and its improvements to determine the shape of  the \nobjects."
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p1-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 1,
+    "text": "UNIT 4 \n \n1.The problem of determining a point’s 3D position from a set of corresponding \nimage locations and known camera positions is ___. \na. Triangulation \nb. Factorization \nc. Bundle adjustment \nd. Orthographic projection \n \nans : a \n \n2.The_____ refers to the fact that motion estimation is highly ambiguous when the \nobservation window is very small. \na. panoptic segmentation \nb. aperture problem \nc. geometric reasoning \nd. calibration error \nANS : B \n \n3.One of the useful property of Fourier transforms is that convolution in the spatial \ndomain corresponds to ____ in the Fourier domain \na. addition \nb. subtraction \nc. multiplication \nb. division \nANS : C \n \n4.Bundle adjustment is now the standard method of choice for most ___ problems \nand is commonly applied to problems with hundreds of weakly calibrated images and \ntens of thousands of points. \na. motion-from-structure \nb. structure-from-motion \nc. motion-from-motion \nd.structure-from-structure \nANS : B \n \n5.Which of the following can also be computed on the basis of line matches alone? \na. Trifocal Tensor \nb. Tensor Flow \nc. Stack overflow \nd. both Tensor Flow and  Stack overflow \nANS : A \n \n6.____ technique can be used to"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p1-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 1,
+    "text": "ing can also be computed on the basis of line matches alone? \na. Trifocal Tensor \nb. Tensor Flow \nc. Stack overflow \nd. both Tensor Flow and  Stack overflow \nANS : A \n \n6.____ technique can be used to estimate a series of rotation matrices and focal \nlengths, which can be chained together to create large panoramas. \na. Bundle adjustment \nb. Parallax removal \nc. Gap closing \nd. Composting \nANS : B"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p2-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 2,
+    "text": "7.Before we can register and align images, we need mathematical relationships that \n______ from one image to another. \na. align an image \nb. map pixel coordinates \nc. rotate pixel \nd. compare image \nANS : B \n \n8.In ________, images are translated, optionally rotated and scaled. \na. panography \nb. cryptography \nc. photography \nd. cartography \nANS : A \n \n9.An alternative to using homography or 3D motions to align images is to first warp \nthe images into ___ and then use a pure translational model to align them. \na. Spherical coordinates \nb. Cylindrical coordinates \nc. Planar coordinates \nd. Vector coordinates \nANS : B \n \n10.If the user takes images in sequence so that each image overlaps its predecessor \nand also specifies the first and last images to be stitched, bundle adjustment \ncombined with the process of _____ can be used to automatically assemble a \npanorama. \na. topology inference \nb. mean difference \nc. sum of squared difference \nd. change in image \nANS : A \n \n11.The fundamental matrix is given by ____________. \n \n12.Most modern cameras have ______ pixels and an image center near the \n________ of the image \na. round, center \nb. rectangle, corner \nc. square, middle \nd. round"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p2-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 2,
+    "text": "l matrix is given by ____________. \n \n12.Most modern cameras have ______ pixels and an image center near the \n________ of the image \na. round, center \nb. rectangle, corner \nc. square, middle \nd. round, edge \n \nANS : A \n \n13.Which one of the following is the point of intersection of the line joining the \ncamera centers with the image plane?  \na. Epipole \nb. Axis \nc. Point of projection \nd. Point at infinity"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p3-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 3,
+    "text": "ans :a \n \n14.Fourier-based alignment relies on the fact that the Fourier transform of a shifted \nsignal has the same magnitude as the original signal, but a _____________ phase \na. exponentially varying \nb. linearly varying \nc. unvarying \nd. constant  \n \nans: b \n \n15.Structure from motion is a __________in structure and motion. \na. Bipartite problem \nb. Graph Coloring Problem \nc. Travelling salesman problem \nd. Normalized Cut \nans : a \n \n16.Triangulation is the converse of _________ problem. \na. Direct Linear Transform \nb. Pose Estimation \nc. 2D Motion Estimation \nd. Rigid Transform \nans: b \n \n \n1.  \nApproaches to image processing that work directly on the pixels of \nincoming image work in ____________ \na) Spatial domain \nb) Inverse transformation \nc) Transform domain \nd) None of the Mentioned \nAnswer: a \n2.  \n _________ is the process of moving a filter mask over the image and \ncomputing the sum of products at each location. \na) Nonlinear spatial filtering \nb) Convolution \nc) Correlation \nd) Linear spatial filtering \n \nAnswer: c \n \n3.  \ndigital image processing is based on the concepts of maths, ___. \n1. probabilistic formulation \n2. human intuition, \n3. analysis \n4. all of the ab"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p3-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 3,
+    "text": "ion \nd) Linear spatial filtering \n \nAnswer: c \n \n3.  \ndigital image processing is based on the concepts of maths, ___. \n1. probabilistic formulation \n2. human intuition, \n3. analysis \n4. all of the above"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p4-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 4,
+    "text": "Show Answer \n4. all of the above \n \n4.  \nWhich of the following plane is used for 2D transformations? \na) Three-dimensional plane \nb) Two-dimensional plane \nc) One-dimensional plane \nd) Four-dimensional Plane \n \nAnswer: b \n \n5.  \n In which of the following projection, the object size differs when look \nfrom different distances? \na) Parallel Projection \nb) Cavalier Projection \nc) Perspective projection \nd) Cabinet Projection \n \nAnswer: c \n \n6.  \nFundamental matrix tells how pixels (points) in each image are related \nto epipolar lines in the other image in \na. \nCalibrated Camera images \nb. \nUncalibrated Camera images \nc. \nBoth a and b \nd. \nNone of the above \nAns : a \n7.  \nIn perspective projection, what happens to the size of the image when \nthe object moves far from the projection plane? \na) There is no change in size of image \nb) Size of image gets bigger \nc) Size of image gets smaller \nd) There is no image in perspective projection \nAnswer: c \n \n8.  \nIn perspective projection, at which of the following point the eyes of the \nobserver are located? \na) Vanishing Point \nb) Perspective Point \nc) Observer Point \nd) Station Point \n \nAnswer: d"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p4-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 4,
+    "text": "h of the following point the eyes of the \nobserver are located? \na) Vanishing Point \nb) Perspective Point \nc) Observer Point \nd) Station Point \n \nAnswer: d"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p5-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 5,
+    "text": "9.  \nHow many axis intersects with the projection plane in the three-point \nperspective projection? \na) One \nb) Two \nc) Three \nd) No axis intersects the projection plane \n \nAnswer: c \n \n10.  \nWhich of the following operation can be applied on a 3 D object to move \nit along any axis from its original position? \na) Translation \nb) Scaling \nc) Rotation \nd) Shearing \n \nAnswer: a \n \n11.  \nWhat does composite transformations means? \na) Transformations that can be done in sequence \nb) Transformations that cannot be done in sequence \nc) Transformations that can be done simultaneously \nd) Transformations that cannot be done simultaneously \n \nAnswer: a \n \n12.  \nEssential matrix describes the geometric relationship between \ncorresponding points of a stereo pairs in \na. Calibrated Camera images \nb. Uncalibrated Camera images \nc. Both a and b \nd. None of the above \nAns : b \n13.  \nWhat projection is a single pictorial drawing, representing all the three \nsides of an object such that they have a tendency to converge at a point? \na) Perspective projection \nb) Isomeric projection \nc) Axonometric projection \nd) Oblique projection \n \nAnswer: a"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p5-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 5,
+    "text": "ency to converge at a point? \na) Perspective projection \nb) Isomeric projection \nc) Axonometric projection \nd) Oblique projection \n \nAnswer: a"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p6-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 6,
+    "text": "14.  \n__________ are the applications of an object recognition \na. Driverless cars \nb. Medical image processing \nc. Monitoring and surveillance \nd. All of the above \nAns :d \n \n15.  \n__________ are the difficulties in object recognition under varied \ncircumstances \n Lighting, rotation, positioning \n Mirroring, occlusion, scale \n Both a and b \n None of the above \nANS:C \n16.  \nEssential and fundamental matrices are 3x3 matrices that  \na. Encode the epipolar geometry of two views \nb. Compute homography \nc. Decode homogeneous coordinates \nd. None of the above \nANS : a \n \n \nUNIT 5 \n1.  \nParametric motion models are possible using \na. 2D transforms \nb. Planar perspective models \nc. 3D camera rotations \nd. All of the above \nANS : D \n2.  \nGap or an overlap occurs while creating large panoramas because of \na. Accumulated errors \nb. Missing content \nc. Non-overlapping patches \nd. None of the above \nAns : a \n3.  \nGap closing can be achieved by \na. Distributing the error evenly across the whole sequence \nb. Pure panning motion \nc. Update the estimated focal length based on the amount of misregistration. \nd. All of the above \nAns : d \n4.  \nIssues to be considered in video stitching are \na. Indep"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p6-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 6,
+    "text": "uence \nb. Pure panning motion \nc. Update the estimated focal length based on the amount of misregistration. \nd. All of the above \nAns : d \n4.  \nIssues to be considered in video stitching are \na. Independent motion and Camera zoom \nb. Focus to visualize dynamic events \nc. Both a and b \nd. None of the above"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p7-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 7,
+    "text": "Ans : c \n5.  \n17.For converting a projective reconstruction into a metric one, _____________ \ntechniques have been developed. \na. Orthographic Projection \nb. Projection Matrix \nc. Self-calibration \nd. Epipolar \nAns:  \n \n6.  \nThe normal vector perpendicular to the line can be expressed as a function of two angles \nusing ______________. \na. Spherical coordinates \nb. Cylindrical coordinates \nc. Planar coordinates \nd. Vector coordinates \nAns :  a \n7.  \nProfessional panoramic photographers often use pan-tilt heads that make it easy to \ncontrol the tilt and to stop at specific _____in the rotation angle. \na. error \nb. bias \nc. weight \nd. detents \nANS : d \n8.  \nRadial distortion can be estimated ________. \na. ahead of time \nb. Just in time \nc. using alignment \nd. by matching pixels \nAns : d \n9.  \nCylindrical image stitching algorithms are used when \na. Camera is known to be level \nb. Rotating around its vertical axis \nc. Both a and b \nd. Camera not in level. \nAns: C \n10.  \nGlobally consistent set of alignment parameters that minimize the mis-registration \nbetween all pairs of images is known as \na. Overall alignment \nb. Global alignment \nc. Local alignment \nd. Camera alignment \nANs : b \n1"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p7-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 7,
+    "text": "set of alignment parameters that minimize the mis-registration \nbetween all pairs of images is known as \na. Overall alignment \nb. Global alignment \nc. Local alignment \nd. Camera alignment \nANs : b \n11.  \n______________is performed to reduce double images and blurring due to local mis-\nregistrations. \na. Parallax removal \nb. Noise removal \nc. Frame removal \nd. Blur removal \nAns : a \n12.  \nThe process of simultaneously adjusting pose parameters for a large collection of overlap- \nping images is called _________________ \na. Image alignment \nb. Bundle Adjustment"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p8-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 8,
+    "text": "c. Bundle Alignment \nd. Image adjustment \nAns : b \n13.  \nStitched image looks blurry or ghosted due to  \na. Unmodeled radial distortion \nb. 3D parallax (failure to rotate the camera around its optical center) \nc. Small scene and large-scale scene motions in and out of pictures. \nd. All of the above. \nAns : d \n14.  \nRadial distortion can be estimated \na. plumb-line method \nb. mosaic based approaches \nc. Anti distortion \nd. Both a and b \nAns : d \n15.  \nCorrection for parallax in the overlap areas can be accomplished using  \na. Multi-perspective plane sweep (MPPS) algorithm \nb. SIFT \nc. MOPS \nd. SVD \nAns : a \n16.  \nCompositing surface can be  \na. Fat \nb. Cylindrical or spherical \nc. View (reference image) \nd. All of the above \nAns : d \n17.  \nUse of stereographic projections looking down at the ground (in an outdoor scene) is \nknown as  \na. Little planet  renderings \nb. World view \nc. Global rendering \nd. Galaxy rendering \nAns : a \n18.  \nusual choice for compositing larger panoramas is to use  \na. Spherical Projection  \nb. Cylindrical projection \nc. Both a & b \nd. None of the above \nANs : c \n19.  \nProcess of determining which part of the scene will be centered in the ﬁnal view is \na. S"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p8-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 8,
+    "text": "use  \na. Spherical Projection  \nb. Cylindrical projection \nc. Both a & b \nd. None of the above \nANs : c \n19.  \nProcess of determining which part of the scene will be centered in the ﬁnal view is \na. Scene selection \nb. Center selection \nc. View selection \nd. Axis selection \nAns : c \n20.  \nCreate a ﬁnal composite by taking Weighted average  value at each pixel is known as \na. Feathering  \nb. Averaging \nc. Composting \nd. Rendering \nAns. : a"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p9-c0000",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 9,
+    "text": "PART B \nUNIT IV \n \n1. Examine the process involved in two frame structure from motion. \n2. Elaborate the process of triangulation. \n3. Assess the role of constraints in SFM. \n4. Illustrate the significance of bundle adjustment in structure from motion systems. \n5. Demonstrate the process optimization achieved in hierarchical motion estimation with example. \n6. Demonstrate how sparsity can be exploited for image alignment. \n7. Discuss incremental refinement in SFM \n8. Explain self-calibration in SFM. \n \nUNIT V \n \n1. Analyse the role of rotational panoramas in image stitching with a neat example. \n2. Discuss the applications of planar perspective motion. \n3. Explain ‘Compositing’ Approaches with example. \n4. Examine the parallax removal approaches in detail. \n5. Discuss the applications of gap closing techniques. \n6. People prefer that the final stitched image is “upright” rather than twisted or tilted. Justify. \n7. Compare direct and feature based alignment. \n8. Analyze the role of cylindrical panoramas in image stitching with example."
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB.pdf-p9-c0001",
+    "source_file": "CV UNIT 4 & 5 QB.pdf",
+    "page_number": 9,
+    "text": "ndrical panoramas in image stitching with example."
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p1-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 1,
+    "text": "UNIT 4 \n \n1.The problem of determining a point’s 3D position from a set of corresponding \nimage locations and known camera positions is ___. \na. Triangulation \nb. Factorization \nc. Bundle adjustment \nd. Orthographic projection \n \nans : a \n \n2.The_____ refers to the fact that motion estimation is highly ambiguous when the \nobservation window is very small. \na. panoptic segmentation \nb. aperture problem \nc. geometric reasoning \nd. calibration error \nANS : B \n \n3.One of the useful property of Fourier transforms is that convolution in the spatial \ndomain corresponds to ____ in the Fourier domain \na. addition \nb. subtraction \nc. multiplication \nb. division \nANS : C \n \n4.Bundle adjustment is now the standard method of choice for most ___ problems \nand is commonly applied to problems with hundreds of weakly calibrated images and \ntens of thousands of points. \na. motion-from-structure \nb. structure-from-motion \nc. motion-from-motion \nd.structure-from-structure \nANS : B \n \n5.Which of the following can also be computed on the basis of line matches alone? \na. Trifocal Tensor \nb. Tensor Flow \nc. Stack overflow \nd. both Tensor Flow and  Stack overflow \nANS : A \n \n6.____ technique can be used to"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p1-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 1,
+    "text": "ing can also be computed on the basis of line matches alone? \na. Trifocal Tensor \nb. Tensor Flow \nc. Stack overflow \nd. both Tensor Flow and  Stack overflow \nANS : A \n \n6.____ technique can be used to estimate a series of rotation matrices and focal \nlengths, which can be chained together to create large panoramas. \na. Bundle adjustment \nb. Parallax removal \nc. Gap closing \nd. Composting \nANS : B"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p2-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 2,
+    "text": "7.Before we can register and align images, we need mathematical relationships that \n______ from one image to another. \na. align an image \nb. map pixel coordinates \nc. rotate pixel \nd. compare image \nANS : B \n \n8.In ________, images are translated, optionally rotated and scaled. \na. panography \nb. cryptography \nc. photography \nd. cartography \nANS : A \n \n9.An alternative to using homography or 3D motions to align images is to first warp \nthe images into ___ and then use a pure translational model to align them. \na. Spherical coordinates \nb. Cylindrical coordinates \nc. Planar coordinates \nd. Vector coordinates \nANS : B \n \n10.If the user takes images in sequence so that each image overlaps its predecessor \nand also specifies the first and last images to be stitched, bundle adjustment \ncombined with the process of _____ can be used to automatically assemble a \npanorama. \na. topology inference \nb. mean difference \nc. sum of squared difference \nd. change in image \nANS : A \n \n11.The fundamental matrix is given by ____________. \n \n12.Most modern cameras have ______ pixels and an image center near the \n________ of the image \na. round, center \nb. rectangle, corner \nc. square, middle \nd. round"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p2-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 2,
+    "text": "l matrix is given by ____________. \n \n12.Most modern cameras have ______ pixels and an image center near the \n________ of the image \na. round, center \nb. rectangle, corner \nc. square, middle \nd. round, edge \n \nANS : A \n \n13.Which one of the following is the point of intersection of the line joining the \ncamera centers with the image plane?  \na. Epipole \nb. Axis \nc. Point of projection \nd. Point at infinity"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p3-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 3,
+    "text": "ans :a \n \n14.Fourier-based alignment relies on the fact that the Fourier transform of a shifted \nsignal has the same magnitude as the original signal, but a _____________ phase \na. exponentially varying \nb. linearly varying \nc. unvarying \nd. constant  \n \nans: b \n \n15.Structure from motion is a __________in structure and motion. \na. Bipartite problem \nb. Graph Coloring Problem \nc. Travelling salesman problem \nd. Normalized Cut \nans : a \n \n16.Triangulation is the converse of _________ problem. \na. Direct Linear Transform \nb. Pose Estimation \nc. 2D Motion Estimation \nd. Rigid Transform \nans: b \n \n \n1.  \nApproaches to image processing that work directly on the pixels of \nincoming image work in ____________ \na) Spatial domain \nb) Inverse transformation \nc) Transform domain \nd) None of the Mentioned \nAnswer: a \n2.  \n _________ is the process of moving a filter mask over the image and \ncomputing the sum of products at each location. \na) Nonlinear spatial filtering \nb) Convolution \nc) Correlation \nd) Linear spatial filtering \n \nAnswer: c \n \n3.  \ndigital image processing is based on the concepts of maths, ___. \n1. probabilistic formulation \n2. human intuition, \n3. analysis \n4. all of the ab"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p3-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 3,
+    "text": "ion \nd) Linear spatial filtering \n \nAnswer: c \n \n3.  \ndigital image processing is based on the concepts of maths, ___. \n1. probabilistic formulation \n2. human intuition, \n3. analysis \n4. all of the above"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p4-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 4,
+    "text": "Show Answer \n4. all of the above \n \n4.  \nWhich of the following plane is used for 2D transformations? \na) Three-dimensional plane \nb) Two-dimensional plane \nc) One-dimensional plane \nd) Four-dimensional Plane \n \nAnswer: b \n \n5.  \n In which of the following projection, the object size differs when look \nfrom different distances? \na) Parallel Projection \nb) Cavalier Projection \nc) Perspective projection \nd) Cabinet Projection \n \nAnswer: c \n \n6.  \nFundamental matrix tells how pixels (points) in each image are related \nto epipolar lines in the other image in \na. \nCalibrated Camera images \nb. \nUncalibrated Camera images \nc. \nBoth a and b \nd. \nNone of the above \nAns : a \n7.  \nIn perspective projection, what happens to the size of the image when \nthe object moves far from the projection plane? \na) There is no change in size of image \nb) Size of image gets bigger \nc) Size of image gets smaller \nd) There is no image in perspective projection \nAnswer: c \n \n8.  \nIn perspective projection, at which of the following point the eyes of the \nobserver are located? \na) Vanishing Point \nb) Perspective Point \nc) Observer Point \nd) Station Point \n \nAnswer: d"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p4-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 4,
+    "text": "h of the following point the eyes of the \nobserver are located? \na) Vanishing Point \nb) Perspective Point \nc) Observer Point \nd) Station Point \n \nAnswer: d"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p5-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 5,
+    "text": "9.  \nHow many axis intersects with the projection plane in the three-point \nperspective projection? \na) One \nb) Two \nc) Three \nd) No axis intersects the projection plane \n \nAnswer: c \n \n10.  \nWhich of the following operation can be applied on a 3 D object to move \nit along any axis from its original position? \na) Translation \nb) Scaling \nc) Rotation \nd) Shearing \n \nAnswer: a \n \n11.  \nWhat does composite transformations means? \na) Transformations that can be done in sequence \nb) Transformations that cannot be done in sequence \nc) Transformations that can be done simultaneously \nd) Transformations that cannot be done simultaneously \n \nAnswer: a \n \n12.  \nEssential matrix describes the geometric relationship between \ncorresponding points of a stereo pairs in \na. Calibrated Camera images \nb. Uncalibrated Camera images \nc. Both a and b \nd. None of the above \nAns : b \n13.  \nWhat projection is a single pictorial drawing, representing all the three \nsides of an object such that they have a tendency to converge at a point? \na) Perspective projection \nb) Isomeric projection \nc) Axonometric projection \nd) Oblique projection \n \nAnswer: a"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p5-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 5,
+    "text": "ency to converge at a point? \na) Perspective projection \nb) Isomeric projection \nc) Axonometric projection \nd) Oblique projection \n \nAnswer: a"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p6-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 6,
+    "text": "14.  \n__________ are the applications of an object recognition \na. Driverless cars \nb. Medical image processing \nc. Monitoring and surveillance \nd. All of the above \nAns :d \n \n15.  \n__________ are the difficulties in object recognition under varied \ncircumstances \n Lighting, rotation, positioning \n Mirroring, occlusion, scale \n Both a and b \n None of the above \nANS:C \n16.  \nEssential and fundamental matrices are 3x3 matrices that  \na. Encode the epipolar geometry of two views \nb. Compute homography \nc. Decode homogeneous coordinates \nd. None of the above \nANS : a \n \n \nUNIT 5 \n1.  \nParametric motion models are possible using \na. 2D transforms \nb. Planar perspective models \nc. 3D camera rotations \nd. All of the above \nANS : D \n2.  \nGap or an overlap occurs while creating large panoramas because of \na. Accumulated errors \nb. Missing content \nc. Non-overlapping patches \nd. None of the above \nAns : a \n3.  \nGap closing can be achieved by \na. Distributing the error evenly across the whole sequence \nb. Pure panning motion \nc. Update the estimated focal length based on the amount of misregistration. \nd. All of the above \nAns : d \n4.  \nIssues to be considered in video stitching are \na. Indep"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p6-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 6,
+    "text": "uence \nb. Pure panning motion \nc. Update the estimated focal length based on the amount of misregistration. \nd. All of the above \nAns : d \n4.  \nIssues to be considered in video stitching are \na. Independent motion and Camera zoom \nb. Focus to visualize dynamic events \nc. Both a and b \nd. None of the above"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p7-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 7,
+    "text": "Ans : c \n5.  \n17.For converting a projective reconstruction into a metric one, _____________ \ntechniques have been developed. \na. Orthographic Projection \nb. Projection Matrix \nc. Self-calibration \nd. Epipolar \nAns:  \n \n6.  \nThe normal vector perpendicular to the line can be expressed as a function of two angles \nusing ______________. \na. Spherical coordinates \nb. Cylindrical coordinates \nc. Planar coordinates \nd. Vector coordinates \nAns :  a \n7.  \nProfessional panoramic photographers often use pan-tilt heads that make it easy to \ncontrol the tilt and to stop at specific _____in the rotation angle. \na. error \nb. bias \nc. weight \nd. detents \nANS : d \n8.  \nRadial distortion can be estimated ________. \na. ahead of time \nb. Just in time \nc. using alignment \nd. by matching pixels \nAns : d \n9.  \nCylindrical image stitching algorithms are used when \na. Camera is known to be level \nb. Rotating around its vertical axis \nc. Both a and b \nd. Camera not in level. \nAns: C \n10.  \nGlobally consistent set of alignment parameters that minimize the mis-registration \nbetween all pairs of images is known as \na. Overall alignment \nb. Global alignment \nc. Local alignment \nd. Camera alignment \nANs : b \n1"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p7-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 7,
+    "text": "set of alignment parameters that minimize the mis-registration \nbetween all pairs of images is known as \na. Overall alignment \nb. Global alignment \nc. Local alignment \nd. Camera alignment \nANs : b \n11.  \n______________is performed to reduce double images and blurring due to local mis-\nregistrations. \na. Parallax removal \nb. Noise removal \nc. Frame removal \nd. Blur removal \nAns : a \n12.  \nThe process of simultaneously adjusting pose parameters for a large collection of overlap- \nping images is called _________________ \na. Image alignment \nb. Bundle Adjustment"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p8-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 8,
+    "text": "c. Bundle Alignment \nd. Image adjustment \nAns : b \n13.  \nStitched image looks blurry or ghosted due to  \na. Unmodeled radial distortion \nb. 3D parallax (failure to rotate the camera around its optical center) \nc. Small scene and large-scale scene motions in and out of pictures. \nd. All of the above. \nAns : d \n14.  \nRadial distortion can be estimated \na. plumb-line method \nb. mosaic based approaches \nc. Anti distortion \nd. Both a and b \nAns : d \n15.  \nCorrection for parallax in the overlap areas can be accomplished using  \na. Multi-perspective plane sweep (MPPS) algorithm \nb. SIFT \nc. MOPS \nd. SVD \nAns : a \n16.  \nCompositing surface can be  \na. Fat \nb. Cylindrical or spherical \nc. View (reference image) \nd. All of the above \nAns : d \n17.  \nUse of stereographic projections looking down at the ground (in an outdoor scene) is \nknown as  \na. Little planet  renderings \nb. World view \nc. Global rendering \nd. Galaxy rendering \nAns : a \n18.  \nusual choice for compositing larger panoramas is to use  \na. Spherical Projection  \nb. Cylindrical projection \nc. Both a & b \nd. None of the above \nANs : c \n19.  \nProcess of determining which part of the scene will be centered in the ﬁnal view is \na. S"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p8-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 8,
+    "text": "use  \na. Spherical Projection  \nb. Cylindrical projection \nc. Both a & b \nd. None of the above \nANs : c \n19.  \nProcess of determining which part of the scene will be centered in the ﬁnal view is \na. Scene selection \nb. Center selection \nc. View selection \nd. Axis selection \nAns : c \n20.  \nCreate a ﬁnal composite by taking Weighted average  value at each pixel is known as \na. Feathering  \nb. Averaging \nc. Composting \nd. Rendering \nAns. : a"
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p9-c0000",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 9,
+    "text": "PART B \nUNIT IV \n \n1. Examine the process involved in two frame structure from motion. \n2. Elaborate the process of triangulation. \n3. Assess the role of constraints in SFM. \n4. Illustrate the significance of bundle adjustment in structure from motion systems. \n5. Demonstrate the process optimization achieved in hierarchical motion estimation with example. \n6. Demonstrate how sparsity can be exploited for image alignment. \n7. Discuss incremental refinement in SFM \n8. Explain self-calibration in SFM. \n \nUNIT V \n \n1. Analyse the role of rotational panoramas in image stitching with a neat example. \n2. Discuss the applications of planar perspective motion. \n3. Explain ‘Compositing’ Approaches with example. \n4. Examine the parallax removal approaches in detail. \n5. Discuss the applications of gap closing techniques. \n6. People prefer that the final stitched image is “upright” rather than twisted or tilted. Justify. \n7. Compare direct and feature based alignment. \n8. Analyze the role of cylindrical panoramas in image stitching with example."
+  },
+  {
+    "chunk_id": "CV UNIT 4 & 5 QB_231108_203607.pdf-p9-c0001",
+    "source_file": "CV UNIT 4 & 5 QB_231108_203607.pdf",
+    "page_number": 9,
+    "text": "ndrical panoramas in image stitching with example."
+  }
+]
